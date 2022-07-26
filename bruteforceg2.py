@@ -4,8 +4,8 @@ Trabalho 1 - Problema da Galeria """
 
 from genetic2022g import *
 
-#Função de força bruta realiza métodos diretos de resolver um problema que dependem do poder de computação 
-# e tentam todas as possibilidades em vez de técnicas avançadas para melhorar a eficiência. 
+#Função de força bruta realiza métodos diretos de resolver um problema que dependem do poder de computação  
+#e tentam todas as possibilidades em vez de técnicas avançadas para melhorar a eficiência. 
 def run_bruteforce(fotos_totais, max_tagueadas):
     n_fotos = len(fotos_totais) #Numero total de fotos
     #Individuo inicial (todos zeros)
